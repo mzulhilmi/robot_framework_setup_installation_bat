@@ -1,7 +1,10 @@
 @echo off
 
+echo Please make sure you already download python-2.7.14.msi and save at the same folder with this batch file
+pause
+
 echo Install Python
-msiexec /i python-2.7.14.msi TARGETDIR=C:\python27 /qb ALLUSER=1
+msiexec /i python-2.7.14.msi TARGETDIR=C:\Python27 /qb ALLUSER=1
 pause
 
 echo Set Python Variable
